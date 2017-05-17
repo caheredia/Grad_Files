@@ -1,0 +1,228 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      8286,        219]
+NotebookOptionsPosition[      7660,        193]
+NotebookOutlinePosition[      8164,        213]
+CellTagsIndexPosition[      8121,        210]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<ErrorBarPlots`\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.6931647252944813`*^9, 3.693164725296207*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"ErrorBar", "::", "shdw"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Symbol \[NoBreak]\\!\\(\\\"ErrorBar\\\"\\)\[NoBreak] \
+appears in multiple contexts \[NoBreak]\\!\\({\\\"ErrorBarPlots`\\\", \
+\\\"Global`\\\"}\\)\[NoBreak]; definitions in context \
+\[NoBreak]\\!\\(\\\"ErrorBarPlots`\\\"\\)\[NoBreak] may shadow or be shadowed \
+by other definitions. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/shdw\\\", ButtonNote -> \
+\\\"ErrorBarPlots`ErrorBar::shdw\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.693164726799697*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"ErrorListPlot", "::", "shdw"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Symbol \[NoBreak]\\!\\(\\\"ErrorListPlot\\\"\\)\[NoBreak] \
+appears in multiple contexts \[NoBreak]\\!\\({\\\"ErrorBarPlots`\\\", \
+\\\"Global`\\\"}\\)\[NoBreak]; definitions in context \
+\[NoBreak]\\!\\(\\\"ErrorBarPlots`\\\"\\)\[NoBreak] may shadow or be shadowed \
+by other definitions. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/shdw\\\", ButtonNote -> \
+\\\"ErrorBarPlots`ErrorListPlot::shdw\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.693164726917547*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ErrorListPlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"150", ",", ".162"}], "}"}], ",", 
+       RowBox[{"ErrorBar", "[", "0.003", "]"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"250", ",", ".161"}], "}"}], ",", 
+       RowBox[{"ErrorBar", "[", "0.002", "]"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"350", ",", ".189"}], "}"}], ",", 
+       RowBox[{"ErrorBar", "[", "0.004", "]"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"450", ",", ".235"}], "}"}], ",", 
+       RowBox[{"ErrorBar", "[", "0.007", "]"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"550", ",", ".285"}], "}"}], ",", 
+       RowBox[{"ErrorBar", "[", "0.009", "]"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"650", ",", ".332"}], "}"}], ",", 
+       RowBox[{"ErrorBar", "[", "0.009", "]"}]}], "}"}]}], "}"}], ",", 
+   RowBox[{"Joined", "\[Rule]", "True"}], ",", 
+   RowBox[{"PlotRange", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"100", ",", "660"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"0.1", ",", ".35"}], "}"}]}], "}"}]}], ",", 
+   RowBox[{"PlotStyle", "\[Rule]", 
+    RowBox[{"{", "Orange", "}"}]}], ",", 
+   RowBox[{"Ticks", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+       "150", ",", "250", ",", "350", ",", "450", ",", "550", ",", "650"}], 
+       "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+       "0", ",", ".15", ",", ".2", ",", ".25", ",", ".3", ",", ".35"}], 
+       "}"}]}], "}"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.693164754376129*^9, 3.693164894862301*^9}, {
+  3.693164980091858*^9, 3.693165012056135*^9}, {3.6931674543104897`*^9, 
+  3.693167485410844*^9}, {3.6931675185162086`*^9, 3.693167588801594*^9}, {
+  3.6931676640884867`*^9, 3.693167712124729*^9}, {3.693167756852714*^9, 
+  3.6931677928504*^9}, {3.693167847970755*^9, 3.6931678501353693`*^9}, {
+  3.693167880904652*^9, 3.69316790760581*^9}, {3.6931679808073397`*^9, 
+  3.6931680219204283`*^9}, {3.693168561927319*^9, 3.6931686786098547`*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{{}, 
+   {RGBColor[1, 0.5, 0], PointSize[0.019444444444444445`], AbsoluteThickness[
+    1.6], LineBox[{{150., 0.162}, {250., 0.161}, {350., 0.189}, {450., 
+     0.235}, {550., 0.285}, {650., 
+     0.332}}], {{LineBox[{{150., 0.165}, {150., 0.159}}], 
+      LineBox[{Offset[{1.5, 0}, {150., 0.165}], 
+        Offset[{-1.5, 0}, {150., 0.165}]}], 
+      LineBox[{Offset[{1.5, 0}, {150., 0.159}], 
+        Offset[{-1.5, 0}, {150., 0.159}]}]}, {
+      LineBox[{{250., 0.163}, {250., 0.159}}], 
+      LineBox[{Offset[{1.5, 0}, {250., 0.163}], 
+        Offset[{-1.5, 0}, {250., 0.163}]}], 
+      LineBox[{Offset[{1.5, 0}, {250., 0.159}], 
+        Offset[{-1.5, 0}, {250., 0.159}]}]}, {
+      LineBox[{{350., 0.193}, {350., 0.185}}], 
+      LineBox[{Offset[{1.5, 0}, {350., 0.193}], 
+        Offset[{-1.5, 0}, {350., 0.193}]}], 
+      LineBox[{Offset[{1.5, 0}, {350., 0.185}], 
+        Offset[{-1.5, 0}, {350., 0.185}]}]}, {
+      LineBox[{{450., 0.242}, {450., 0.22799999999999998`}}], 
+      LineBox[{Offset[{1.5, 0}, {450., 0.242}], 
+        Offset[{-1.5, 0}, {450., 0.242}]}], 
+      LineBox[{Offset[{1.5, 0}, {450., 0.22799999999999998`}], 
+        Offset[{-1.5, 0}, {450., 0.22799999999999998`}]}]}, {
+      LineBox[{{550., 0.294}, {550., 0.27599999999999997`}}], 
+      LineBox[{Offset[{1.5, 0}, {550., 0.294}], 
+        Offset[{-1.5, 0}, {550., 0.294}]}], 
+      LineBox[{Offset[{1.5, 0}, {550., 0.27599999999999997`}], 
+        Offset[{-1.5, 0}, {550., 0.27599999999999997`}]}]}, {
+      LineBox[{{650., 0.341}, {650., 0.323}}], 
+      LineBox[{Offset[{1.5, 0}, {650., 0.341}], 
+        Offset[{-1.5, 0}, {650., 0.341}]}], 
+      LineBox[{Offset[{1.5, 0}, {650., 0.323}], 
+        Offset[{-1.5, 0}, {650., 0.323}]}]}}}, {}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{102.8, 0.10125},
+  DisplayFunction->Identity,
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  Method->{},
+  PlotRange->{{100, 660}, {0.1, 0.35}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{0, 0}, {0, 0}},
+  Ticks->{{{150, 
+      FormBox["150", TraditionalForm]}, {250, 
+      FormBox["250", TraditionalForm]}, {350, 
+      FormBox["350", TraditionalForm]}, {450, 
+      FormBox["450", TraditionalForm]}, {550, 
+      FormBox["550", TraditionalForm]}, {650, 
+      FormBox["650", TraditionalForm]}}, {{0, 
+      FormBox["0", TraditionalForm]}, {0.15, 
+      FormBox["0.15`", TraditionalForm]}, {0.2, 
+      FormBox["0.2`", TraditionalForm]}, {0.25, 
+      FormBox["0.25`", TraditionalForm]}, {0.3, 
+      FormBox["0.3`", TraditionalForm]}, {0.35, 
+      FormBox["0.35`", TraditionalForm]}}}]], "Output",
+ CellChangeTimes->{{3.693167787499564*^9, 3.693167793355517*^9}, 
+   3.693167850621173*^9, {3.6931678816251802`*^9, 3.693167908139504*^9}, {
+   3.693168006311707*^9, 3.693168022749704*^9}, 3.693168592452642*^9, {
+   3.693168625866885*^9, 3.693168641901876*^9}, {3.693168673390551*^9, 
+   3.693168678859941*^9}}]
+}, Open  ]]
+},
+WindowSize->{951, 742},
+WindowMargins->{{67, Automatic}, {-4, Automatic}},
+WindowElements->{
+ "StatusArea", "MemoryMonitor", "MagnificationPopUp", "HorizontalScrollBar", 
+  "VerticalScrollBar"},
+Magnification:>1.5 Inherited,
+FrontEndVersion->"10.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (June 27, \
+2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 147, 2, 43, "Input"],
+Cell[730, 26, 680, 13, 84, "Message"],
+Cell[1413, 41, 695, 13, 84, "Message"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2145, 59, 2311, 62, 169, "Input"],
+Cell[4459, 123, 3185, 67, 363, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
