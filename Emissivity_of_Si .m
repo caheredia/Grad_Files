@@ -1,3 +1,4 @@
+
 clear, clc
 T = (300:1:800); %generates temperature range 
 ece = 0.88; %energy coupling efficiency
